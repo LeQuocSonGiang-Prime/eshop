@@ -32,8 +32,8 @@ public class ArticleServiceImpl implements ArticleService {
 	@Autowired
 	private ImageUpload imageUpload;
 	
-	@Value("${articleservice.featured-items-number}")
-	private int featuredArticlesNumber;
+	//@Value("${articleservice.featured-items-number}")
+	private int featuredArticlesNumber = 8;
 
 	@Override
 	public List<Article> findAllArticles() {
