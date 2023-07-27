@@ -1,1 +1,1 @@
-web: java -jar -Dserver.port=8080 store-0.0.1-SNAPSHOT.war    
+web: java -jar -Dserver.port=8080 store-0.0.1-SNAPSHOT.war
