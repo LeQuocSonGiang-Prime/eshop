@@ -1,1 +1,1 @@
-web: java -jar  -Djdk.tls.client.protocols=TLSv1.2 target/store-01.war
+web: java -jar  -Djdk.tls.client.protocols=TLSv1.2 target/store-01.war 
