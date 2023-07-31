@@ -14,14 +14,14 @@ import java.util.Collections;
 public class StoreApplication  {	
 
 	public static void main(String[] args) {
-		String port = System.getenv("PORT");
-		if (port == null) {
-			port = "8080"; // Nếu không tìm thấy biến PORT, sử dụng cổng mặc định 8080
-		}
-		SpringApplication app = new SpringApplication(StoreApplication.class);
-		app.setDefaultProperties(Collections.singletonMap("server.port", port));
-		app.run(args);
-		//SpringApplication.run(StoreApplication.class, args);
+//		String port = System.getenv("PORT");
+//		if (port == null) {
+//			port = "8080"; // Nếu không tìm thấy biến PORT, sử dụng cổng mặc định 8080
+//		}
+//		SpringApplication app = new SpringApplication(StoreApplication.class);
+//		app.setDefaultProperties(Collections.singletonMap("server.port", port));
+//		app.run(args);
+		SpringApplication.run(StoreApplication.class, args);
 	}
 
 }
