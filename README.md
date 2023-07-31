@@ -23,3 +23,7 @@ The data was taken from MercadoLibre.com public API using a simple python script
 I uploaded both the script (might not be reusable in the future without modifications) 
 and the sql dump in case someone needs to import a working database. 
 All the images were originally links to cloud resources but I decided later to serve them as static assets for simplicity.
+
+
+### Deploy
+<a href="https://demo-shop-ca3de4753819.herokuapp.com/">eshop</a>
